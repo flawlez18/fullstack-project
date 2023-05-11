@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: 577456190159.dkr.ecr.us-west-1.amazonaws.com/fullstack1:1.0
+        image: 577456190159.dkr.ecr.us-west-1.amazonaws.com/fullstack1:1.1 
         resources:
           limits:
             memory: "512Mi"
