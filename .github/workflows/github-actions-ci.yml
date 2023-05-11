@@ -1,0 +1,14 @@
+name: Fullstack React app deploy to EKS 
+on:
+    push:
+      branches: ["main"]
+    pull_request:
+      branches: ["main"]
+
+jobs:
+  build_test:
+    runs-on: ubuntu-latest
+    strategy:
+        matrix:
+            node: [18]
+    
